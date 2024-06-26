@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      Enter Numbers : <input type="text" id="elem" />
+      <input type="button" onclick="validate_numbers()" value="check" />
+      <br />Enter Letters : <input type="text" id="elem1" />
+      <input type="button" onclick="validate_letters()" value="check" />
+      <br />Enter anything : <input type="text" id="elem2" />
+      <input type="button" value="check" onclick="validate_length()" />
+      <br />Select Country :
+      <select id="con">
+        <option>Please Choose Checked</option>
+        <option>Nepal</option>
+        <option>India</option>
+        <option>China</option>
+      </select>
+      <input type="button" value="check" onclick="validate_select()" />
+      <br />Select Gender: <input type="radio" name="gen" />Male
+      <input type="radio" name="gen" />Female
+      <input type="button" value="check" onclick="radio()" />
+      <br />Email :<input type="text" id="email" />
+      <input type="button" value="check" onclick="checkemail()" />
+    </form>
+
+    <script src="FORM-VALIDATION.js"></script>
+  </body>
+</html>
